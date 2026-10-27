@@ -1,0 +1,17 @@
+# Dependencies
+
+node_modules/
+
+# Environment variables and passwords
+
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+
+# Build files
+
+dist/
+client/dist/
+server/dist/
